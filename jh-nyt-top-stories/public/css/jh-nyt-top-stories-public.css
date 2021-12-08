@@ -1,0 +1,64 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.nyttopstories__list {
+    list-style: none;
+}
+
+ .nyttopstories {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.nyttopstories__article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    border-radius: 20px;
+    padding: 0 12px;
+    background-color: white;
+    border: 2px dashed;
+}
+
+.nyttopstories__title {
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.nyttopstories__link:hover {
+    text-decoration: underline;
+}
+
+.nyttopstories__desc {
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.nyttopstories__catagory {
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.nyttopstories__tag {
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.nyttopstories__byline {
+    font-weight: 600;
+}
+
+.nyttopstories__img {
+    margin: 1rem 0 2rem 0;
+}
